@@ -125,10 +125,6 @@ student.getDetails();
 
 
 
-
-
-
-
 //Problem 7
 const getIntersection = (firstArray :number[], secondArray:number[]): number[] =>{
      const commonArray = [];
@@ -148,11 +144,3 @@ const getIntersection = (firstArray :number[], secondArray:number[]): number[] =
 
 const commonElementsArray: number[] = getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
 console.log(commonElementsArray);
-
-
-
-
-let data: unknown = "Hello";
-
-console.log(data.toUpperCase()); // Error: Object is of type 'unknown'
-console.log(data.length); 
